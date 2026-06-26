@@ -10,29 +10,12 @@ export interface StreamCallbacks {
   onDone: () => void;
 }
 
-const DEFAULT_API =
+const API_URL =
   process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, "") || "http://localhost:8000";
-const LS_KEY = "backendUrl";
 
-/** URL backend efektif. Prioritas: override di browser (localStorage) > env build > default. */
+/** URL backend — dibaca dari NEXT_PUBLIC_API_URL saat build. */
 export function getApiUrl(): string {
-  if (typeof window !== "undefined") {
-    const saved = window.localStorage.getItem(LS_KEY);
-    if (saved && saved.trim()) return saved.trim().replace(/\/$/, "");
-  }
-  return DEFAULT_API;
-}
-
-/** Simpan (atau hapus, jika kosong) override URL backend di browser ini — tanpa rebuild. */
-export function setApiUrl(url: string): void {
-  if (typeof window === "undefined") return;
-  const clean = url.trim().replace(/\/$/, "");
-  if (clean) window.localStorage.setItem(LS_KEY, clean);
-  else window.localStorage.removeItem(LS_KEY);
-}
-
-export function getDefaultApiUrl(): string {
-  return DEFAULT_API;
+  return API_URL;
 }
 
 export async function getHealth(): Promise<{ status: string; guide: string }> {
