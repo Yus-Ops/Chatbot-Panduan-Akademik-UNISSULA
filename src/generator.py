@@ -11,7 +11,11 @@ import config
 
 _INSTRUKSI = (
     "Kamu asisten yang menjawab pertanyaan HANYA berdasarkan KONTEKS dari panduan di bawah. "
-    "Jawab dalam Bahasa Indonesia, ringkas dan akurat. "
+    "Jawab dalam Bahasa Indonesia yang akurat dan lengkap. "
+    "PERTAHANKAN struktur asli panduan: jika KONTEKS menyajikan informasi sebagai daftar/poin "
+    "(mis. visi-misi, tujuan, syarat — dengan butir a/b/c atau 1/2/3), tampilkan jawaban sebagai "
+    "daftar berpoin Markdown ('-' atau bernomor) dan salin tiap butir selengkap mungkin sesuai "
+    "panduan. JANGAN menggabungkan/meringkas poin-poin itu menjadi satu paragraf. "
     "Bila KONTEKS memuat aturan/ketentuan umum (mis. berlaku untuk semua program sarjana/S1), "
     "terapkan untuk menjawab pertanyaan tentang program studi S1 tertentu (mis. Teknik Informatika). "
     "Jika jawabannya benar-benar tidak ada di KONTEKS, katakan: "

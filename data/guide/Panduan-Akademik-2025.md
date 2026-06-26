@@ -176,9 +176,6 @@ Menyelenggarakan pendidikan tinggi bidang teknologi industri yang berorientasi p
 - b) Mendidik dan mengembangkan sumber daya insani pada semua program pendidikan tinggi dalam bidang teknologi industri dalam rangka membangun generasi khaira ummah tafaqquh fiddin, berakhlak mulia, dengan kualitas kecendekiawanan dan kepakaran standar tertinggi dan kesetaraan universal, siap melaksanakan tugas kepemimpinan dan dakwah.
 - c) Mengembangkan pengabdian kepada masyarakat dalam membangun peradaban Islam melalui upaya memajukan bidang teknologi industri menuju masyarakat sejahtera yang dirahmati Allah SWT.
 - d) Mengembangkan gagasan dan kegiatan agar secara dinamik senantiasa siap melakukan perbaikan kelembagaan sesuai dengan hasil rekonstruksi dan
-
-![](_page_7_Picture_12.jpeg)
-
 pengembangan IPTEK bidang teknologi industri atas dasar nilai-nilai Islam, dan perkembangan masyarakat.
 
 #### **Tujuan :**
@@ -245,8 +242,6 @@ Koordinator : Dedi Nugroho, ST., MT
 
 ♦ Gugus Penjaminan Mutu Program Studi Teknik Industri (S1) Koordinator : Dr. Nurwidiana, ST., MT.
 
-![](_page_9_Picture_26.jpeg)
-
 ♦ Gugus Penjaminan Mutu Program Studi Teknik Informatika (S1)
 
 Koordinator : Badie'ah, ST., MKom
@@ -306,11 +301,6 @@ Bagas Afza Joko Ariyanto, SKom
 ♦ Koord. TA TI : Dr. Nurwidiana, ST., MT. ♦ Koord. KP TI : Rieska Ernawati, ST., MT. ♦ Koord. TA TIF : Badie'ah, ST, MKom
 
 ♦ Koord. KP TIF : Bagus Satrio Waluyo Poetro, SKom., M.Cs.
-
-![](_page_10_Picture_30.jpeg)
-
-![](_page_11_Figure_0.jpeg)
-
 Keterangan :
 
 TE : Teknik Elektro TI : Teknik Industri TIF : Teknik Informatika : Garis instruksi : Garis Koordinasi
@@ -343,9 +333,6 @@ Menjadi Program Studi Magister Teknik Elektro terkemuka yang inovatif, berkontri
 #### **3.1.4 Tujuan**
 
 a. Menghasilkan lulusan yang ahli, cerdas, terampil, mandiri, kompetitif, bertakwa dan memiliki kemampuan daya saing yang memiliki nilai integritas diri serta
-
-![](_page_12_Picture_16.jpeg)
-
 - kejujuran, senantiasa menjunjung tinggi nilai nilai moral (akhlakul karimah) dan etika dan profesionalisme serta mampu mengaplikasikan nilai – nilai keilmuan dalam bentuk kesholehan sosial kepada masyarakat sepanjang hayatnya.
 - b. Menghasilkan lulusanyang memiliki karya karya penelitian terapan yang inovatif di bidang Teknik Elektro.
 - c. Membangun dan memiliki jaringan kerjasama yang sinergis dengan industri dan institusi – institusi terkait lainnya, baik yang berada di dalam maupun diluar negeri yang dapat menunjang kegiatan pengajaran, penelitian dan pengabdian kepada masyarakat di bidang Teknik Elektro.
@@ -370,11 +357,7 @@ Dekan Pertama Fakultas Teknologi Industri UNISSULA adalah Ir. H. Soehardjo. Adap
 
 ### **3.2.1.2 Visi**
 
-Menjadi Program Studi Teknik Elektro yang terkemuka di bidang ketenagalistrikan dan otomasi industri serta berkontribusi di tingkat
-
-![](_page_13_Picture_14.jpeg)
-
-internasional pada tahun 2036 atas dasar nilai-nilai Islam dalam kerangka rahmatan lil'alamin.
+Menjadi Program Studi Teknik Elektro yang terkemuka di bidang ketenagalistrikan dan otomasi industri serta berkontribusi di tingkat internasional pada tahun 2036 atas dasar nilai-nilai Islam dalam kerangka rahmatan lil'alamin.
 
 ### **3.2.1.3 Misi**
 
@@ -394,8 +377,6 @@ internasional pada tahun 2036 atas dasar nilai-nilai Islam dalam kerangka rahmat
 ### **3.2.2 Teknik Industri 3.2.2.1 Profil**
 
 Program Studi Teknik Industri (PSTI) berada di bawah Fakultas Teknologi Industri UNISSULA yang beralamat di Jalan Raya Kaligawe Km 4 Semarang. Didirikan berdasar keputusan Dirjen Dikti Depdikbud No. 294/SIKTI/KEP/2000, tertanggal 24 Agustus 2000. Nomenklatur PTSI dibawah rumpun ilmu teknik nomor 26201 yang berdasar Kerangka Kualifikasi Nasional Indonesia (KKNI) nomenklatur diubah menjadi nomor 6160513 dengan gelar ST. (KKNI level 6) dalam bahasa internasional disebut Industrial Engineering (permendikbud no. 154 tahun 2014). PSTI Unissula terakreditasi Unggul oleh LAM Teknik tertuang pada keputusan 0672/SK/LAM Teknik/AS/VIII/2025.
-
-![](_page_14_Picture_15.jpeg)
 
 #### **3.2.2.2 Visi**
 
@@ -422,8 +403,6 @@ Tujuan ditetapkan untuk memastikan tercapainya Misi yang telah ditetapkan, terdi
 #### **3.2.3.1 Profil**
 
 Program Studi S1 Informatika berdiri sejak tahun 2003 dengan SK Dirjen Dikti No. 1421/D/T/2003, memiliki pengajar-pengajar yang berkualifikasi S3 dan S2 lulusan dari dalam dan luar negeri. Terakreditasi LAM INFOKOM Nomor:026/SK/LAM-INFOKOM/Ak/S/III/2024 dengan Peringkat Baik Sekali.
-
-![](_page_15_Picture_16.jpeg)
 
 #### **3.2.3.2 Visi**
 
@@ -454,8 +433,6 @@ Untuk menunjang kegiatan akademik dan memperlancar kegiatan belajar mengajar sek
 - Laboratorium Sistem Tenaga
 - Laboratorium Telekomunikasi
 
-![](_page_16_Picture_19.jpeg)
-
 #### **3.3.2 Laboratorium Teknik Industri :**
 
 - Laboratorium Komputer Dasar
@@ -478,10 +455,6 @@ Ruang baca yang memadai dengan koleksi buku-buku tiap program studi, Jurnal, Han
 ### **3.5 Struktur Kurikulum**
 
 Berdasarkan Undang-Undang Nomor 12 Tahun 2012 tentang Pendidikan Tinggi, dinyatakan bahwa penyusunan kurikulum adalah hak perguruan tinggi, tetapi selanjutnya dinyatakan harus mengacu kepada standar nasional (Pasal 35 ayat 1). Secara garis besar kurikulum, sebagai sebuah rancangan, terdiri dari empat unsur, yakni capaian pembelajaran, bahan kajian yang harus dikuasai, strategi pembelajaran untuk mencapai, dan sistem penilaian ketercapaiannya. Oleh karena itu semua program studi yang ada di FTI UNISSULA dalam menyusun kurikulum harus mengacu pada peraturan tersebut, serta sesuai dengan Visi, Misi, dan Tujuan (VMT) UNISSULA.
-
-![](_page_17_Picture_15.jpeg)
-
-![](_page_18_Figure_1.jpeg)
 
 Gambar 2. Acuan pengembangan kurikulum, perguruan tinggi
 
@@ -512,8 +485,6 @@ Administrasi akademik pendidikan tinggi Fakultas Teknologi Industri UNISSULA dis
 - k) Kartu Hasil Studi selanjutnya disingkat KHS adalah kartu yang memuat nilai-nilai hasil evaluasi, Indeks Prestasi Semester selanjutnya disingkat IPS dan Indeks Prestasi Kumulatif selanjutnya disingkat IPK yang telah dicapai oleh seorang mahasiswa berdasarkan rencana studinya.
 - l) Indeks Prestasi Semester (IPS) adalah Indeks Prestasi yang dihitung dari semua nilai mata kuliah yang telah diambil dalam semester yang bersangkutan.
 - m)Indeks Prestasi Kumulatif (IPK) adalah Indeks Prestasi yang dihitung dari semua nilai kumulatif yang telah diperoleh.
-
-![](_page_19_Picture_16.jpeg)
 
 - n) Registrasi administratif adalah suatu kegiatan yang dilakukan oleh mahasiswa untuk memperoleh status terdaftar.
 - o) Registrasi akademik adalah kegiatan untuk mendaftarkan diri sebagai peserta kuliah, praktikum, ujian dan atau kegiatan akademik lainnya yang ditawarkan pada tiap semester.
@@ -597,8 +568,6 @@ Kegiatan tersebut dilakukan mahasiswa di universitas berupa pembayaran **SPP** d
 
 ▪ Pada setiap awal semester, mahasiswa diwajibkan untuk mendaftarkan diri baik bagi mahasiswa baru maupun mahasiswa lama sebagai syarat untuk dapat mengikuti kegiatan perkuliahan dan kegiatan akademik lainnya.
 
-![](_page_22_Picture_18.jpeg)
-
 - Mahasiswa yang tidak mendaftarkan sampai waktu yang ditentukan, tidak diijinkan aktif dalam semua kegiatan kampus pada semester yang bersangkutan, dan dikenakan sanksi sesuai peraturan yang berlaku.
 - Mahasiswa dianggap mengundurkan diri apabila dua semester berturut-turut tidak mendaftarkan kembali.
 - Mahasiswa termasuk dalam kategori di atas dapat mendaftar kembali sebagai mahasiswa dan tetap diakui seluruh prestasinya. Ketentuan masa studi tetap 7 tahun semenjak pertama kali terdaftar di Unissula dan harus memenuhi syarat administrasi universitas.
@@ -622,9 +591,6 @@ Kegiatan Belajar Mengajar (KBM) di FTI, dikategorikan menjadi 3:
 
 - Teori
 - Praktikum
-
-![](_page_23_Picture_14.jpeg)
-
 ● KBM di luar kampus bisa berupa KKN/KPT, KI/KKL, KP/PKK, maupun Tugas Akhir yang sangat memungkinkan melibatkan institusi di luar Perguruan Tinggi.
 
 Mulai awal tahun 2020, pemerintah melalui Kemendikbud telah mengeluarkan kebijakan Merdeka Belajar – Kampus Merdeka, yang bertujuan mendorong mahasiswa untuk menguasai berbagai keilmuan yang berguna untuk memasuki dunia kerja. Kampus Merdeka memberikan kesempatan bagi mahasiswa untuk memilih mata kuliah yang akan mereka ambil. Kebijakan Merdeka Belajar - Kampus Merdeka ini sesuai dengan Permendikbud Nomor 3 Tahun 2020 tentang Standar Nasional Pendidikan Tinggi, pada Pasal 18 disebutkan bahwa pemenuhan masa dan beban belajar bagi mahasiswa program sarjana atau sarjana terapan dapat dilaksanakan: 1) mengikuti seluruh proses pembelajaran dalam program studi pada perguruan tinggi sesuai masa dan beban belajar; dan 2) mengikuti proses pembelajaran di dalam program studi untuk memenuhi sebagian masa dan beban belajar dan sisanya mengikuti proses pembelajaran di luar program studi.
@@ -668,8 +634,6 @@ Untuk mengetahui keberhasilan mahasiswa, diadakan bermacam-macam ujian yang meli
 
 Ujian tersebut di atas dapat dilakukan dalam bentuk ujian tertulis kecuali pelaksanaan ujian seminar dan ujian pendadaran / ujian akhir
 
-![](_page_25_Picture_16.jpeg)
-
 Ujian yang bersifat khusus, ujian percobaan, testing kemampuan penguasaan materi oleh mahasiswa, ujian tengah semester, dapat diadakan oleh dosen yang bersangkutan dan diadakan pada jam kuliah mata pelajaran yang bersangkutan. Tetapi ujian ini tidak menyangkut kelulusan atau kebebasan menempuh ujian semester.
 
 ### 2. Persyaratan Ujian
@@ -702,8 +666,6 @@ Nilai hasil ujian dapat dinyatakan dengan huruf A, AB, B, BC, C, CD, D dan E yan
 - e. Nilai hasil ujian tersebut di atas dapat diumumkan secara terbuka pada papan pengumuman atau melalui website: sim.unissula.ac.id.
 - f. Mahasiswa dimungkinkan untuk memperbaiki nilai ujian yang sudah berjalan dengan ketentuan apabila telah memenuhi persyaratan dengan ketentuan nilai hasil ujian yang diperhitungkan adalah nilai yang tertinggi.
 - g. Untuk program Sarjana (S1), nilai terendah mata kuliah yang diambil oleh mahasiswa adalah C, kecuali nilai Mata kuliah penciri Universitas nilai terendah adalah B. Kurang dari nilai tersebut, mahasiswa dianggap TIDAK LULUS dan diwajibkan untuk MENGULANG mata kuliah tersebut.
-
-![](_page_26_Picture_15.jpeg)
 
 h. Untuk program magister (S2), nilai terendah adalah B, kurang dari nilai tersebut, mahasiswa dianggap TIDAK LULUS dan diwajibkan untuk MENGULANG mata kuliah tersebut.
 
@@ -782,8 +744,6 @@ Ketentuan yang mengatur pendaftaran kembali mahasiswa yang telah meninggalkan st
 
 a. Dalam kategori ini termasuk yang menghentikan studi karena dicabut statusnya sebagai mahasiswa untuk sementara waktu.
 
-![](_page_28_Picture_16.jpeg)
-
 - b. Setelah selesai menjalani masa hukumnya, mahasiswa yang termasuk kategori ini perlu mengajukan surat permohonan kepada Rektor, untuk memperoleh ijin mengikuti lagi pendidikan di Fakultas Teknologi Industri.
 - c. Batas waktu penyelesaian studi tidak berubah dan tetap diperhitungkan sejak yang bersangkutan terdaftar untuk pertama kali sebagai mahasiswa.
 - 4. Batas studi bagi mahasiswa magister (S2) adalah selama 8 (delapan) semester (4 tahun) sudah termasuk cuti yang diambil di dalam masa studi tersebut.
@@ -801,8 +761,6 @@ Mahasiswa selama mengikuti jenjang pendidikan dan pengajaran di FTI diharuskan m
 - 5. ICT for Academic Purposes/Teknologi Digital Informasi untuk Akademik Nilai minimal yang dipersyaratkan adalah B dari penyelenggara mata kuliah ICT for Academic Purposes /IT-Literacy
 - 6. Tutorial Pendidikan Agama Islam Nilai minimal yang dipersyaratkan adalah B dari lembaga penyelenggara tutorial PAI
 - 7. Seminar Teknologi (internal dan eksternal) Seminar teknologi internal merupakan kegiatan seminar yang diselenggarakan oleh fakultas atau universitas sendiri. Seminar teknologi eksternal merupakan kegiatan seminar yang diselenggarakan oleh instansi lain di luar UNISSULA. Kedua kegiatan tersebut dibuktikan dengan sertifikat
-
-![](_page_29_Picture_14.jpeg)
 
 dari penyelenggara. Mahasiswa dapat berperan aktif (menjadi pembicara) maupun peran pasif (menjadi pendengar) dalam kegiatan tersebut.
 
@@ -827,8 +785,6 @@ Syarat kelulusan bagi mahasiswa Program Studi Magister Teknik Elektro (S2) adala
 - b. Telah **Accepted** artikel ilmiah di Jurnal Nasional Terakreditasi RISTEK DIKTI atau terindeks di Sinta 2, dan atau Jurnal Internasional, dan atau konferensi ilmiah internasional terindeks Scopus
 - c. Telah lulus TOEFL dengan skor nilai TOEFL yang dipersyaratkan adalah ≥ 450 yang dibuktikan dari lembaga bahasa UNISSULA (CILAD) atau lembaga kredibel lainnya yang diakui oleh CILAD
 - d. Rasio level plagiarisme dari thesis adalah ≤ 24.99%.
-
-![](_page_30_Picture_14.jpeg)
 
 Syarat kelulusan ini harus dipenuhi ketika mahasiswa akan mendaftar ujian pendadaran/ujian akhir. Seluruh sertifikat difotokopi dengan menunjukkan sertifikat asli ke tim reviewer. Tim reviewer terdiri atas unsur program studi, bidang kemahasiswaan, dan dosen wali.
 
@@ -856,8 +812,6 @@ Syarat-syarat REMIDI:
 
 - A. Persyaratan Mengikuti Semester Antara Ada 2 Kategori yaitu:
   - a. Total Ulang
-
-![](_page_31_Picture_16.jpeg)
 
 (Mata kuliah yang diambil statusnya adalah Mengulang / Perbaikan SEMUANYA), maka syarat mengikuti Semester Antara adalah :
 
@@ -892,9 +846,6 @@ Implementasi kebijakan Magang Berdampak di UNISSULA mempunyai tujuan sebagai ber
 - 5. Menciptakan kultur belajar yang kreatif, inovatif, dan bebas memilih kegiatan yang sesuai dengan kebutuhan mahasiswa.
 
 Secara spesifik panduan ini bertujuan sebagai acuan bagi lembaga/biro/unit terkait, seperti fakultas, program studi, LP3M, BAAK dan unit lainnya dalam melakukan pengembangan, implementasi dan monitoring Magang Berdamapak di UNISSULA. Panduan ini pun digunakan sebagai payung hukum
-
-![](_page_32_Picture_20.jpeg)
-
 yang menjadi jaminan dan penguatan terhadap program dan aktivitas Magang Berdampak di UNISSULA.
 
 ### **4.6.2 Prinsip Magang Berdampak di UNISSULA**
@@ -906,11 +857,7 @@ Implementasi Magang Berdampak di UNISSULA menganut prinsip-prinsip sebagai berik
 - 3. Mutual Collaborative Partnership. Kerja sama antara UNISSULA dan pihak luar dilakukan dengan kolaborasi yang saling menguntungkan, yakni membangun visi yang sama dalam rangka membangun sumber daya manusia yang berkualitas melalui aktivitas kerjasama kelembagaan dengan institusi, organisasi dan dunia usaha dan industri. Prinsip kolaborasi ini berorientasi pada upaya saling melengkapi, memperkaya, dan menguatkan antara akademisi dan praktisi di lapangan.
 - 4. Beragam pengalaman belajar. Pengalaman belajar yang bermakna (meaningfull experiences) tidak dapat diperoleh hanya dengan satu jenis aktivitas belajar dan dengan interaktivitas yang terbatas. Oleh karena itu, perlu lingkungan belajar yang lebih luas, yang nantinya akan mampu memberikan pengalaman nyata yang lebih aplikatif dan mendalam. Magang Berdampak UNISSULA memfasilitasi mahasiswa untuk memperoleh beragam pengalaman melalui interaksi dengan sumber belajar yang lebih beragam.
 - 5. Keterkaitan dan Kesepadanan (Link and Match). Kurikulum yang dirancang dikaitkan dan disepadankan antara yang dipelajari di bangku kuliah dan yang menjadi tuntutan/harapan di lapangan/masyarakat. Tersedianya sarana prasarana yang standar, seperti ruang kelas, tempat magang, dan laboratorium yang sesuai dengan standar industri diharapkan tidak ada lagi terjadi kesenjangan antara sarana kampus dan sarana di lapangan yang pada akhirnya akan mengurangi kesenjangan antara kompetensi yang dimiliki oleh lulusan dan standar kompetensi yang dituntut dalam dunia usaha-dunia industri.
-- 6. Kemandirian Belajar (Self-Directed Learning). Adanya paradigma pembelajaran yang mengharuskan mahasiswa menjadi motor dalam belajar (student centered learning) menuntut pembelajaran dilaksanakan lebih mandiri. Tuntutan itu diperkuat oleh perkembangan teknologi sistem informatika yang mendukung pembelajaran jarak jauh dengan prinsip belajar mandiri. Pola Magang Berdampak UNISSULA akan semakin memperkuat keberadaan pembelajaran daring dengan penguatan
-
-![](_page_33_Picture_9.jpeg)
-
-- infrastruktur ICT yang telah dimiliki, serta sistem pembelajaran (platform) LMS yang semakin intensif digunakan oleh dosen dan mahasiswa sebagai perwujudan smart campus.
+- 6. Kemandirian Belajar (Self-Directed Learning). Adanya paradigma pembelajaran yang mengharuskan mahasiswa menjadi motor dalam belajar (student centered learning) menuntut pembelajaran dilaksanakan lebih mandiri. Tuntutan itu diperkuat oleh perkembangan teknologi sistem informatika yang mendukung pembelajaran jarak jauh dengan prinsip belajar mandiri. Pola Magang Berdampak UNISSULA akan semakin memperkuat keberadaan pembelajaran daring dengan penguatan infrastruktur ICT yang telah dimiliki, serta sistem pembelajaran (platform) LMS yang semakin intensif digunakan oleh dosen dan mahasiswa sebagai perwujudan smart campus.
 - 7. Berorientasi Kecakapan Abad ke-21. Program-program yang dijabarkan dan aktivitas yang dilakukan dalam konteks pembelajaran diarahkan pada upaya penguasaan empat keterampilan dasar yang menjadi konsensus yaitu : (1) kecakapan berpikir kritis (critical thinking skills), (2) kecakapan berkomunikasi (communication skills), (3) kecakapan berkreasi (creativity), dan (4) kecakapan berkolaborasi (collaboration). Keempat keterampilan dasar tersebut dapat dilengkapi dengan kecakapan computational thinking.
 
 #### **4.6.3 Ketentuan Umum**
@@ -935,9 +882,6 @@ Klasifikasi mata kuliah terdiri dari:
 - 3. Mata Kuliah Wajib Umum (MKWU) adalah kelompok mata kuliah wajib yang ditujukan untuk mengembangkan aspek kepribadian mahasiswa sebagai individu dan warga masyarakat yang berasal dari pemerintah
 - 4. Mata Kuliah Wajib Khusus (MKWK) adalah kelompok mata kuliah wajib yang ditujukan untuk mendukung visi misi UNISSULA
 - 5. Mata Kuliah Keahlian (MKK) adalah kelompok mata kuliah wajib yang ditujukan untuk mengembangkan kemampuan mahasiswa dalam penguasaan keahlian inti bidang studi/bidang ilmu terkait/rumpun keilmuan. MKK dapat terdiri atas MKK fakultas dan MKK program studi
-
-![](_page_34_Picture_18.jpeg)
-
 - 6. Mata Kuliah Perluasan dan Pendalaman (MKPP) adalah mata kuliah pilihan dalam program studi yang ditujukan untuk memperluas atau memperdalam penguasaan materi keilmuan program studi.
 - 7. Mata Kuliah Kemampuan Tambahan (MKKT) adalah mata kuliah pilihan luar program studi/lintas program studi yang disediakan oleh program studi ditujukan untuk menambah kemampuan dalam bidang lain yang menunjang profil lulusan program studi dan menekankan multidisiplin learning dan diversity di luar program studi yang berorientasi ke industri (kewirausahaan, literasi data, literasi teknologi, literasi manusia, dan lainlain) sebanyak 20 sks
 - 8. Mata Kuliah Merdeka Kegiatan (MKMK) adalah mata kuliah pilihan yang dapat diambil mahasiswa di kampus lain yang berisi materi dalam program studi dan/atau luar program studi (Pertukaran Mahasiswa) maupun ikut kegiatan pembelajaran di lembaga non perguruan tinggi (Magang/Praktek Kerja, Asistensi Mengajar di Satuan Pendidikan, Penelitian/Riset, Proyek Kemanusiaan, Kegiatan Wirausaha, Studi/Proyek Independen, atau Membangun Desa/Kuliah Kerja Tematik)
@@ -983,11 +927,7 @@ HM-TE Fakultas Teknologi Industri mempunyai tugas pokok mengevaluasi program dan
 
 #### **b. HM-TI ( Teknik Industri)**
 
-Himpunan Mahasiswa Teknik Industri (HM-TI) Fakultas Teknologi Industri berfungsi sebagai perwakilan mahasiswa program studi Teknik Industri untuk menampung dan menyalurkan aspirasi mahasiswa melalui penetapan garis-
-
-![](_page_36_Picture_14.jpeg)
-
-garis program HM-TI terutama yang berkaitan dengan pelaksanaan fungsi dan pencapaian tujuan pendidikan tinggi.
+Himpunan Mahasiswa Teknik Industri (HM-TI) Fakultas Teknologi Industri berfungsi sebagai perwakilan mahasiswa program studi Teknik Industri untuk menampung dan menyalurkan aspirasi mahasiswa melalui penetapan garis-garis program HM-TI terutama yang berkaitan dengan pelaksanaan fungsi dan pencapaian tujuan pendidikan tinggi.
 
 HM-TI Fakultas Teknologi Industri mempunyai tugas pokok mengevaluasi program dan pelaksanaan program di tingkat program studi serta memberikan pendapat, usul dan saran kepada pimpinan program studi maupun pimpinan fakultas. HM-TI Fakultas Teknologi Industri juga bertugas menyelenggarakan kunjungan industri khusus untuk mahasiswa baru program studi Teknik Industri.
 
@@ -1013,11 +953,7 @@ Mahasiswa Pencinta Alam Fakultas Teknologi Industri (Mahapati) berdiri pada tahu
 
 #### **c. AJF FTI (Al Jannatul Firdaus)**
 
-Al-Jannatul Firdaus merupakan salah satu Lembaga Semi Otonom (LSO) di FTI yang bergerak di bidang Kerohanian Islam. Ketika tahun 2002 AJF masih
-
-![](_page_37_Picture_14.jpeg)
-
-direncanakan oleh para pendirinya, bagaimana caranya agar bisa berkembang di FTI. Alhamdulillah pada tahun 2003 AJF disahkan oleh para petinggi FTI.
+Al-Jannatul Firdaus merupakan salah satu Lembaga Semi Otonom (LSO) di FTI yang bergerak di bidang Kerohanian Islam. Ketika tahun 2002 AJF masih direncanakan oleh para pendirinya, bagaimana caranya agar bisa berkembang di FTI. Alhamdulillah pada tahun 2003 AJF disahkan oleh para petinggi FTI.
 
 Visi AJF saat ini adalah "Membentuk Insinyur yang berkompetensi dengan berbasis perjuangan Islam demi kemaslahatan umat". Misi AJF adalah untuk "menjalin ukhuwah islamiyah antar mahasiswa FTI dan mempersiapkan mahasiswa muslim FTI Unissula menuju dakwah profesi (pekerjaan)". AJF bertujuan untuk "Berukhuwah membentuk generasi muslim teknik yang profesional". AJF merupakan wadah mahasiswa muslim FTI untuk menyerukan kepada agama Allah, wadah komunikasi untuk mempererat ukhuwah islamiyah, dan wadah intelektual muslim yang kritis, inovatif dan aspiratif.
 
@@ -1052,11 +988,7 @@ Adapun latar belakang yang mendasari perlunya diselenggarakan suatu wadah kompet
 - TIK di kalangan mahasiswa sangat pesat perkembangannya
 - Belum ada wadah yang cukup kompetitif dan terpadu semacam PIMNAS
 - Adanya kesenjangan yang cukup lebar mengenai ketersediaan dan kesiapan SDM bangsa Indonesia di bidang SDM TIK
-- TIK memiliki potensi sebagai enabler di semua segi kehidupan dan berdampak luas bagi masyarakat
-
-![](_page_40_Picture_10.jpeg)
-
-- Sebagai bagian kompetisi berjenjang menuju kompetisi TIK berskala internasional
+- TIK memiliki potensi sebagai enabler di semua segi kehidupan dan berdampak luas bagi masyarakat Sebagai bagian kompetisi berjenjang menuju kompetisi TIK berskala internasional
 - Merupakan wadah yang bisa merangkul kegiatan/event sejenis yang diselenggarakan oleh banyak pihak
 
 ### **d. Tim Mobil Hybrid FTI (Molex Renewable Team – MRT)**
@@ -1247,8 +1179,6 @@ Molex Racing Team (MRT) dengan Nama mobil Khaum Emran V3 membukukan sejarah kemb
 |-----|-----------------------------------------|-------------|------------------|-----------------------------|--------------|--|--|--|--|
 | NO. | KODE                                    | MATA KULIAH | Subject (English |                             | MK PRASYARAT |  |  |  |  |
 |     |                                         |             | Version)         | Toori Praktikum Praktok SKS |              |  |  |  |  |
-
-![](_page_46_Picture_4.jpeg)
 
 | 1 | IC236108005                   | Sistem Penyaluran Daya<br>Listrik | Power Distribution<br>System       | 2 | 0 | 0  | 2  | Rangkaian Listrik<br>1, Rangkaian<br>Listrik 2, Dasar<br>Teknik Elektro,<br>Dasar Konversi<br>Energi |
 |---|-------------------------------|-----------------------------------|------------------------------------|---|---|----|----|------------------------------------------------------------------------------------------------------|
