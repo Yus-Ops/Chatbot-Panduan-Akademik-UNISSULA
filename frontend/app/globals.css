@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 }
 
 html,
@@ -104,11 +104,6 @@ body {
   color: #0f7c34;
   text-decoration: underline;
 }
-@media (prefers-color-scheme: dark) {
-  .md a {
-    color: #7eec93;
-  }
-}
 .md code {
   background: rgba(100, 116, 139, 0.18);
   padding: 0.1rem 0.35rem;
@@ -161,16 +156,6 @@ body::before {
     transparent 65%
   );
 }
-@media (prefers-color-scheme: dark) {
-  body::before {
-    background: radial-gradient(
-      50rem 40rem at 50% -10%,
-      rgba(173, 247, 182, 0.12),
-      transparent 65%
-    );
-  }
-}
-
 /* Seleksi teks memakai warna khas */
 ::selection {
   background: #adf7b6;

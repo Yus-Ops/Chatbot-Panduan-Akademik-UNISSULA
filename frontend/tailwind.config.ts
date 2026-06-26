@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: "media",
+  darkMode: "class", // selalu mode terang (tak ikut dark mode OS)
   content: [
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
