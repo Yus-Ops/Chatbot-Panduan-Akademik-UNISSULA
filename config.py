@@ -62,7 +62,22 @@ CHUNK_OVERLAP = 150
 MIN_ALNUM_RATIO = 0.15     # buang chunk skeleton tabel: rasio alfanumerik < ini (mis. '|---|--|')
 
 # --- Retrieval ---
-TOP_K = 8                  # jumlah chunk dikirim ke LLM (lebih sedikit -> prompt lebih ringkas)
+TOP_K = 8                  # jumlah blok konteks dikirim ke LLM (lebih sedikit -> prompt lebih ringkas)
+
+# Saat sebuah chunk terpilih, kirim SELURUH isi section-nya ke LLM (bukan cuma potongan
+# window) selama ukurannya <= ini. Tujuannya: daftar/poin panjang (mis. 12 tujuan FTI)
+# sering terpecah jadi beberapa chunk; kalau cuma sebagian chunk yang lolos retrieval,
+# jawaban jadi kepotong (cuma 4 poin). Dengan mengirim section utuh, semua poin ikut.
+# Section yang LEBIH besar dari ini (tabel kurikulum, lampiran) tetap dikirim per-chunk
+# supaya prompt tidak meledak. ~4500 char cukup memuat section visi/misi/tujuan terpanjang.
+MAX_SECTION_CHARS = 4500
+
+# Anggaran total karakter konteks yang dikirim ke LLM (lintas semua blok). Mengirim section
+# utuh bisa menggelembungkan prompt; batas ini menjaga biaya token & kuota harian tetap wajar
+# (Groq free tier dibatasi token/hari). Blok diisi dari peringkat tertinggi sampai anggaran
+# habis; blok teratas selalu disertakan walau besar. ~6000 char cukup memuat 1 daftar penuh
+# (mis. 12 tujuan FTI ~2700 char) plus beberapa blok pendukung.
+CONTEXT_CHAR_BUDGET = 6000
 
 # Ekspansi singkatan: e5-small tak paham akronim akademik Indonesia (mis. "kaprodi"),
 # jadi query "kaprodi teknik informatika" gagal menemukan chunk "Ketua : ...".

@@ -168,7 +168,7 @@ Memasuki usia tiga puluh dua (32) tahun bukanlah waktu yang singkat dilewatkan, 
 
 Menjadi Fakultas yang berkontribusi internasional pada tahun 2036 dalam penyelenggaraan pendidikan untuk membangun generasi khaira ummah, penelitian dan penerapan ilmu pengetahuan di bidang teknologi industri kepada masyarakat atas dasar nilai-nilai Islam
 
-### **Misi :**
+#### **Misi :**
 
 Menyelenggarakan pendidikan tinggi bidang teknologi industri yang berorientasi pada kualitas dan kesetaraan universal dengan:
 

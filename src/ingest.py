@@ -11,7 +11,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 import config
-from src.chunking import chunk_document, drop_noise, clean_heading
+from src.chunking import chunk_document, drop_noise
 
 def latest_guide():
     files = sorted(config.GUIDE_DIR.glob(config.GUIDE_GLOB))
@@ -24,15 +24,16 @@ def build():
     guide = latest_guide()
     print(f"[ingest] Memproses: {guide.name}")
 
-    chunks = chunk_document(guide)
-    print(f"[ingest] {len(chunks)} chunk dibuat")
+    chunks, sections = chunk_document(guide)
+    print(f"[ingest] {len(chunks)} chunk, {len(sections)} section dibuat")
 
     chunks = drop_noise(chunks)
     print(f"[ingest] {len(chunks)} chunk dipakai (front matter dibuang)")
 
     model = SentenceTransformer(config.EMB_MODEL)
-    # Embed JUDUL section + isi: query spt "visi misi" cocok walau kata itu cuma ada di heading.
-    passages = [config.EMB_PASSAGE_PREFIX + clean_heading(c["source"]) + " — " + c["text"]
+    # Embed BREADCRUMB heading + isi: query spt "visi misi" cocok walau kata itu cuma ada di
+    # heading, dan breadcrumb (induk > anak) bantu membedakan sub-judul ambigu antar-section.
+    passages = [config.EMB_PASSAGE_PREFIX + c["crumb"] + " — " + c["text"]
                 for c in chunks]
     emb = model.encode(passages, normalize_embeddings=True, show_progress_bar=True)
     emb = np.asarray(emb, dtype="float32")
@@ -43,7 +44,8 @@ def build():
     config.INDEX_DIR.mkdir(parents=True, exist_ok=True)
     faiss.write_index(index, str(config.INDEX_PATH))
     config.CHUNKS_PATH.write_text(
-        json.dumps({"guide": guide.name, "chunks": chunks}, ensure_ascii=False),
+        json.dumps({"guide": guide.name, "chunks": chunks, "sections": sections},
+                   ensure_ascii=False),
         encoding="utf-8",
     )
     print(f"[ingest] Index disimpan -> {config.INDEX_PATH}")
