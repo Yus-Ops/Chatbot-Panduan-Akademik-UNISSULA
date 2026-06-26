@@ -41,7 +41,7 @@ PROVIDERS = [
 ]
 
 REQUEST_TIMEOUT = 60       # detik: batas tunggu per request ke API sebelum dianggap gagal
-MAX_NEW_TOKENS = 1000      # batasi panjang jawaban
+MAX_NEW_TOKENS = 3000      # batas panjang jawaban (naikkan lagi bila masih kepotong)
 TEMPERATURE = 0.3          # rendah -> lebih patuh konteks, lebih sedikit mengarang
 
 # --- Embedder (retrieval, tahap-1 / kandidat) ---
@@ -61,7 +61,7 @@ CHUNK_OVERLAP = 150
 MIN_ALNUM_RATIO = 0.15     # buang chunk skeleton tabel: rasio alfanumerik < ini (mis. '|---|--|')
 
 # --- Retrieval ---
-TOP_K = 6                  # jumlah chunk dikirim ke LLM (lebih sedikit -> prompt lebih ringkas)
+TOP_K = 8                  # jumlah chunk dikirim ke LLM (lebih sedikit -> prompt lebih ringkas)
 
 # Ekspansi singkatan: e5-small tak paham akronim akademik Indonesia (mis. "kaprodi"),
 # jadi query "kaprodi teknik informatika" gagal menemukan chunk "Ketua : ...".
