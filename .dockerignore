@@ -1,0 +1,25 @@
+# Frontend di-deploy terpisah di Vercel — tidak perlu di image backend
+frontend/
+
+# Model lokal lama (tidak dipakai versi API) — cegah build context raksasa
+models/
+*.gguf
+
+# Git, cache, bytecode
+.git/
+.gitignore
+.gitattributes
+__pycache__/
+*.pyc
+.cache/
+*.bak
+
+# Rahasia — diisi via HF Secrets / env, bukan file
+.env
+.env.*
+
+# Berkas khusus dev (tak diperlukan saat runtime)
+start-public.ps1
+.vscode/
+.idea/
+.DS_Store

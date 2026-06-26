@@ -1,6 +1,18 @@
+---
+title: Chatbot Panduan Akademik Unissula (API)
+emoji: 🎓
+colorFrom: green
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Chatbot Panduan Akademik Unissula
 
 RAG chatbot tanya–jawab Panduan Akademik. Jawaban **hanya** dari isi panduan resmi.
+
+> Front matter di atas dipakai Hugging Face Spaces (SDK Docker, port 7860). Aman diabaikan di GitHub.
 
 Pipeline: pertanyaan → ekspansi singkatan → retrieval (e5) → rerank (cross-encoder)
 → **LLM via API** (fallback otomatis antar provider) → jawaban streaming + sumber.
@@ -63,13 +75,32 @@ Buka <http://localhost:3000>.
 
 ## Deploy
 
-Frontend di **Vercel**; backend bisa di mana saja (kini **tanpa GPU** → boleh di host
-CPU gratis seperti Render/Railway, atau tetap di PC + tunnel).
+Arsitektur: **Frontend (Vercel) → Backend (Hugging Face Space, Docker) → LLM (API)**.
+Backend versi API tanpa GPU, jadi cukup **Space CPU gratis** dan dapat URL `https` tetap.
 
-1. Deploy `frontend/` ke Vercel, set env `NEXT_PUBLIC_API_URL` = URL backend.
-2. Backend: jalankan `uvicorn server:app` di host pilihanmu, set API key lewat env.
-   - Untuk ekspos cepat dari PC lokal: jalankan `start-public.ps1` (butuh `cloudflared`).
-3. Batasi akses API dengan env `CORS_ORIGINS` (mis. domain Vercel-mu).
+### Backend → Hugging Face Space (Docker)
+
+1. huggingface.co → **New Space** → **SDK: Docker** → Blank.
+2. Push repo ini ke Space (HF membaca `Dockerfile` + front matter di `README.md`):
+   ```bash
+   git remote add space https://huggingface.co/spaces/<user>/<nama-space>
+   git push space main
+   ```
+3. Space → **Settings → Variables and secrets** → tambah **Secrets**:
+   `GROQ_API_KEY`, `OPENMODEL_API_KEY`, `OPENMODEL_BASE_URL`, `OPENMODEL_MODEL`,
+   `OPENAGENTIC_API_KEY`, `OPENAGENTIC_BASE_URL`, `OPENAGENTIC_MODEL`,
+   dan opsional `CORS_ORIGINS` = domain Vercel-mu.
+4. Tunggu build → backend hidup di `https://<user>-<nama-space>.hf.space`.
+   Cek `https://<user>-<nama-space>.hf.space/health`.
+
+> Space CPU gratis akan "tidur" saat lama tidak dipakai → request pertama ada *cold start*
+> (perlu beberapa puluh detik untuk memuat model embedder).
+
+### Frontend → Vercel
+
+1. Import repo ke Vercel, **Root Directory = `frontend`**.
+2. Set env `NEXT_PUBLIC_API_URL` = URL Space di atas, lalu **Deploy**.
+   (Env `NEXT_PUBLIC_*` dibaca saat *build* → tiap mengubahnya harus **Redeploy**.)
 
 ---
 
