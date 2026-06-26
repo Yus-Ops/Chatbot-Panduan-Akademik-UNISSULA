@@ -7,7 +7,8 @@ fastapi
 uvicorn[standard]
 
 # Generator (LLM via API)
-openai            # client OpenAI-compatible untuk semua provider (openmodel.ai, Groq, openagentic.id)
+openai            # provider gaya OpenAI (Groq, openagentic.id)
+anthropic         # provider gaya Anthropic / messages (openmodel.ai)
 python-dotenv     # baca API key dari .env
 
 # Retrieval + ingest index

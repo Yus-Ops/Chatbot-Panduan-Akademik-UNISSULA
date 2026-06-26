@@ -1,10 +1,13 @@
 """Generator jawaban via API LLM, dengan fallback otomatis antar provider.
 
-Bangun prompt grounded dari konteks panduan, lalu stream jawaban dari provider
-pertama yang tersedia (urutan ada di config.PROVIDERS). Bila satu provider gagal
-atau kuotanya habis (mis. HTTP 429 saat awal request), otomatis lanjut ke
-provider berikutnya. Semua provider diasumsikan OpenAI-compatible.
+Mendukung dua protokol per provider (lihat config.PROVIDERS):
+- "openai"    : API gaya OpenAI (chat.completions)  -> Groq, openagentic.id
+- "anthropic" : API gaya Anthropic (messages)        -> openmodel.ai
+
+Bila satu provider gagal/kuota habis SEBELUM mengeluarkan teks, otomatis lanjut
+ke provider berikutnya.
 """
+import anthropic
 from openai import OpenAI
 
 import config
@@ -33,17 +36,17 @@ class Generator:
         for p in config.PROVIDERS:
             if not p.get("api_key"):
                 continue
-            self.providers.append({
-                "name": p["name"],
-                "model": p["model"],
-                "client": OpenAI(
-                    base_url=p["base_url"],
-                    api_key=p["api_key"],
-                    timeout=config.REQUEST_TIMEOUT,
-                ),
-            })
+            protocol = p.get("protocol", "openai")
+            if protocol == "anthropic":
+                client = anthropic.Anthropic(base_url=p["base_url"], api_key=p["api_key"],
+                                             timeout=config.REQUEST_TIMEOUT)
+            else:
+                client = OpenAI(base_url=p["base_url"], api_key=p["api_key"],
+                                timeout=config.REQUEST_TIMEOUT)
+            self.providers.append({"name": p["name"], "model": p["model"],
+                                   "protocol": protocol, "client": client})
         if self.providers:
-            urutan = " -> ".join(pr["name"] for pr in self.providers)
+            urutan = " -> ".join(f"{pr['name']}({pr['protocol']})" for pr in self.providers)
             print(f"[generator] Provider aktif (urutan fallback): {urutan}")
         else:
             print("[generator] PERINGATAN: tidak ada API key terisi. "
@@ -53,8 +56,32 @@ class Generator:
         blocks = [f"[{i}] (Sumber: {c['source']})\n{c['text']}"
                   for i, c in enumerate(contexts, start=1)]
         konteks = "\n\n".join(blocks) if blocks else "(kosong)"
-        return (f"KONTEKS:\n{konteks}\n\n"
-                f"PERTANYAAN: {question}\n\nJAWABAN:")
+        return (f"KONTEKS:\n{konteks}\n\nPERTANYAAN: {question}\n\nJAWABAN:")
+
+    def _stream_openai(self, prov, prompt):
+        stream = prov["client"].chat.completions.create(
+            model=prov["model"],
+            messages=[{"role": "system", "content": _INSTRUKSI},
+                      {"role": "user", "content": prompt}],
+            temperature=config.TEMPERATURE, max_tokens=config.MAX_NEW_TOKENS, stream=True,
+        )
+        for chunk in stream:
+            if not chunk.choices:
+                continue
+            delta = chunk.choices[0].delta.content or ""
+            if delta:
+                yield delta
+
+    def _stream_anthropic(self, prov, prompt):
+        # Anthropic: system terpisah dari messages. text_stream HANYA mengeluarkan teks
+        # jawaban (blok "thinking" pada model reasoning otomatis dilewati).
+        with prov["client"].messages.stream(
+            model=prov["model"], max_tokens=config.MAX_NEW_TOKENS,
+            temperature=config.TEMPERATURE, system=_INSTRUKSI,
+            messages=[{"role": "user", "content": prompt}],
+        ) as stream:
+            for text in stream.text_stream:
+                yield text
 
     def stream(self, question, contexts):
         if not contexts:                      # tak ada chunk relevan -> jawab pasti, tanpa LLM
@@ -64,42 +91,24 @@ class Generator:
             yield "Maaf, layanan AI belum dikonfigurasi (API key kosong). Lihat .env.example."
             return
 
-        # Beda dgn Gemma lokal (tak punya system role), API mendukung system role ->
-        # instruksi ditaruh terpisah supaya grounding lebih kuat.
-        messages = [
-            {"role": "system", "content": _INSTRUKSI},
-            {"role": "user", "content": self._build_prompt(question, contexts)},
-        ]
-
+        prompt = self._build_prompt(question, contexts)
         for prov in self.providers:
             sudah_keluar = False              # apakah sudah sempat streaming token dari provider ini
             try:
-                stream = prov["client"].chat.completions.create(
-                    model=prov["model"],
-                    messages=messages,
-                    temperature=config.TEMPERATURE,
-                    max_tokens=config.MAX_NEW_TOKENS,
-                    stream=True,
-                )
-                for chunk in stream:
-                    if not chunk.choices:
-                        continue
-                    delta = chunk.choices[0].delta.content or ""
+                gen = (self._stream_anthropic(prov, prompt) if prov["protocol"] == "anthropic"
+                       else self._stream_openai(prov, prompt))
+                for delta in gen:
                     if delta:
                         sudah_keluar = True
                         yield delta
             except Exception as e:
                 print(f"[generator] provider '{prov['name']}' gagal: {e}")
                 if sudah_keluar:
-                    # Sudah terlanjur mengirim sebagian jawaban -> JANGAN pindah provider
-                    # (akan menghasilkan jawaban dobel/berantakan). Hentikan saja.
+                    # Sudah terlanjur kirim sebagian -> jangan pindah provider (hindari dobel).
                     return
-                # Belum ada token (mis. kuota habis 429 di awal) -> aman lanjut ke berikutnya.
-                continue
-
+                continue                      # belum ada token (mis. 429) -> coba berikutnya
             if sudah_keluar:
                 return                        # sukses -> selesai
-            # Stream selesai tanpa teks sama sekali -> anggap gagal, coba provider berikutnya.
             print(f"[generator] provider '{prov['name']}' tidak mengembalikan teks -> coba berikutnya")
 
         yield "Maaf, semua layanan AI sedang sibuk atau kuotanya habis. Coba lagi nanti."

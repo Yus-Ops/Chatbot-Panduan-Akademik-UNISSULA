@@ -9,34 +9,35 @@ load_dotenv(ROOT / ".env")   # baca API key & override lain dari .env (kalau ada
 
 
 # --- Generator (LLM via API, dengan fallback berurutan) ---
-# Provider dicoba dari ATAS ke BAWAH. Yang API key-nya kosong otomatis dilewati,
-# jadi cukup isi key yang kamu punya. Saat satu provider gagal / kuotanya habis
-# (mis. HTTP 429), generator otomatis lanjut ke provider berikutnya.
+# Provider dicoba dari ATAS ke BAWAH. Yang API key-nya kosong otomatis dilewati.
+# Saat satu provider gagal/kuota habis, generator lanjut ke provider berikutnya.
 #
-# Semua diasumsikan OpenAI-compatible (endpoint .../v1, dipanggil via SDK `openai`).
+# "protocol" menentukan SDK/format yang dipakai:
+#   - "openai"    -> API gaya OpenAI (chat.completions)  : Groq, openagentic.id
+#   - "anthropic" -> API gaya Anthropic (messages)        : openmodel.ai
 # base_url, model, dan API key diisi lewat .env (lihat .env.example).
-#
-# PENTING: base_url & nama model untuk openmodel.ai dan openagentic.id WAJIB kamu
-# sesuaikan dengan dokumentasi/dashboard masing-masing (default di bawah hanya
-# placeholder). Endpoint Groq sudah benar.
+# Urutan bebas diubah; Groq ditaruh pertama karena paling cepat & andal.
 PROVIDERS = [
     {
-        "name": "openmodel.ai",
-        "base_url": os.environ.get("OPENMODEL_BASE_URL", "https://api.openmodel.ai/v1"),
-        "model":    os.environ.get("OPENMODEL_MODEL", ""),
-        "api_key":  os.environ.get("OPENMODEL_API_KEY", ""),
-    },
-    {
         "name": "groq",
+        "protocol": "openai",
         "base_url": os.environ.get("GROQ_BASE_URL", "https://api.groq.com/openai/v1"),
         "model":    os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile"),
         "api_key":  os.environ.get("GROQ_API_KEY", ""),
     },
     {
         "name": "openagentic.id",
-        "base_url": os.environ.get("OPENAGENTIC_BASE_URL", "https://api.openagentic.id/v1"),
-        "model":    os.environ.get("OPENAGENTIC_MODEL", ""),
+        "protocol": "openai",
+        "base_url": os.environ.get("OPENAGENTIC_BASE_URL", "https://openagentic.id/api/v1"),
+        "model":    os.environ.get("OPENAGENTIC_MODEL", "claude-sonnet-4.5"),
         "api_key":  os.environ.get("OPENAGENTIC_API_KEY", ""),
+    },
+    {
+        "name": "openmodel.ai",
+        "protocol": "anthropic",  # API gaya Anthropic; base_url TANPA /v1
+        "base_url": os.environ.get("OPENMODEL_BASE_URL", "https://api.openmodel.ai"),
+        "model":    os.environ.get("OPENMODEL_MODEL", "deepseek-v4-flash"),
+        "api_key":  os.environ.get("OPENMODEL_API_KEY", ""),
     },
 ]
 
