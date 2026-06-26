@@ -1,0 +1,20 @@
+# requirements.txt — backend RAG chatbot (versi API).
+# Generator memanggil LLM lewat API (OpenAI-compatible) -> tidak perlu llama-cpp / GPU.
+# Mencakup kebutuhan: server, retrieval, ingest index, dan skrip bantu.
+
+# Backend API
+fastapi
+uvicorn[standard]
+
+# Generator (LLM via API)
+openai            # client OpenAI-compatible untuk semua provider (openmodel.ai, Groq, openagentic.id)
+python-dotenv     # baca API key dari .env
+
+# Retrieval + ingest index
+sentence-transformers   # embedder e5 + cross-encoder reranker
+faiss-cpu               # index vektor
+huggingface_hub         # unduh model embedder/reranker
+numpy
+
+# Skrip bantu
+pypdf             # untuk scripts/pdf_to_md.py (PDF panduan -> markdown)

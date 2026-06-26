@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets / env
+.env
+
+# Model lokal (besar) — TIDAK dipakai lagi (versi API), jangan commit.
+# File ini opsional & boleh dihapus untuk hemat ruang.
+models/
+*.gguf
+
+# Cache & backup
+.cache/
+*.bak
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
