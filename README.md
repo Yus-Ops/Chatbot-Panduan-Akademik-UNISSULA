@@ -1,13 +1,3 @@
----
-title: Chatbot Panduan Akademik Unissula (API)
-emoji: 🎓
-colorFrom: green
-colorTo: blue
-sdk: docker
-app_port: 7860
-pinned: false
----
-
 # Chatbot Panduan Akademik Unissula
 
 RAG chatbot tanya–jawab Panduan Akademik. Jawaban **hanya** dari isi panduan resmi.
